@@ -1,0 +1,19 @@
+{
+  "name": "mindspace",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.24.0",
+    "@google/genai": "^2.8.0",
+    "@upstash/ratelimit": "^1.2.0",
+    "@upstash/redis": "^1.31.0",
+    "next": "^14.2.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0"
+  }
+}
